@@ -5,15 +5,15 @@
 
 ➔ A Command Line Bank Application that can execute operations where the user can create an account, deposit amount into the account, withdraw amount from the account and check the account balance.
 
-### Assumptions
+### ➔ Assumptions
 
 1. It is assumed that the user has python (version 3 or higher) installed in his/her device.
-2. It is assumed that the user enters the operation command in either all uppercase or all lowecase.
+2. It is assumed that the user enters the operation commands in either all uppercase or all lowecase.
 
 ### ➔ Technical Details
 
-- **Languages:** `Python3`
-- **Tools:** `Typer, JSON`
+- **Language:** `Python3`
+- **Imports** `Typer, JSON, Regex`
 
 ### ➔ Project setup
 
@@ -22,13 +22,13 @@
 1. Clone the repository by running below command -
 
 ```
-git clone https://github.com/<username>/Assignment---Bank-App.git
+git clone https://github.com/<username>/Bank-Application-Submission.git
 ```
 
 2. Open the folder by running below command -
 
 ```
-cd Assignment-Bank App
+cd Bank-Application-Submission
 ```
 
 3.  Install all the requirements by running below command -
