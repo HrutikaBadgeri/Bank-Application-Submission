@@ -1,5 +1,4 @@
-<div align="center">
-</div>
+<div>
 <h1 align="center">Bank Application</h1>
 </div>
 
@@ -8,12 +7,13 @@
 ### ➔ Assumptions
 
 1. It is assumed that the user has python (version 3 or higher) installed in his/her device.
-2. It is assumed that the user enters the operation commands in either all uppercase or all lowecase.
+2. It is assumed that the user enters the operation commands in all uppercase.
+3. It is assumed that the user knows that the user must enter the account code in the format ACCXXX.
 
 ### ➔ How to Put Commands
 
 ```
-SAMPLE: python bank_application.py <COMMAND> <ACCOUNT CODE> <ACCOUNT NAME>
+SAMPLE: python bank_application.py <COMMAND> <ACCOUNT_CODE> <ACCOUNT_NAME>
 
 Example Commands:
 python bank_application.py CREATE ACC001 ABC
