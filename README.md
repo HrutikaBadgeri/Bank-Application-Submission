@@ -10,10 +10,22 @@
 1. It is assumed that the user has python (version 3 or higher) installed in his/her device.
 2. It is assumed that the user enters the operation commands in either all uppercase or all lowecase.
 
+### ➔ How to Put Commands
+
+```
+SAMPLE: python bank_application.py <COMMAND> <ACCOUNT CODE> <ACCOUNT NAME>
+
+Example Commands:
+python bank_application.py CREATE ACC001 ABC
+python bank_application.py WITHDRAW ACC001 1000
+python bank_application.py DEPOSIT ACC001 1000
+python bank_application.py BALANCE ACC001
+```
+
 ### ➔ Technical Details
 
 - **Language:** `Python3`
-- **Imports** `Typer, JSON, Regex`
+- **Imports:** `Typer, JSON, Regex`
 
 ### ➔ Project setup
 
